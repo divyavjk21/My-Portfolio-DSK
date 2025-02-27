@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Divya Sri Kosaraju</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+   
+
+
+    <!-- Navbar (Fixed) -->
+    <div class="header">
+        <a href="#" class="logo">My Pixel Portfolio</a>
+        <div class="header-right">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    
+
+    <!-- Hero Section (Fixed Image and Text Layout) -->
+    <section id="hero">
+        <div class="hero-content">
+           <h1>Hello, I'm <span class="highlight">Divya Sri Kosaraju</span></h1>
+            <p>Software Developer | Full Stack | AI & ML Enthusiast</p>
+            <a href="assests/DSK_Resume_portfolio_download.docx.pdf" download class="btn">Download Resume</a>
+        </div>
+        <div class="hero-image">
+            <img src="assests/my_photo.jpeg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>The Story So Far &#129434;</h2>
+        <p class="about-content">
+            Dynamic and results-driven Computer Science master’s student at the University of Central Florida with a strong foundation in AI, Machine Learning, and software development. 
+            Adept at designing and implementing intelligent solutions using Python, C++, Java, and full-stack web technologies. 
+            Spearheaded AI-driven research projects, including an ensemble learning model for COVID-19 detection and deep learning-based EMNIST character recognition, achieving significant accuracy improvements. 
+            Proven ability to optimize user experiences through frontend and backend development, demonstrated during a web development internship. 
+            Highly analytical, detail-oriented, and proactive in solving complex problems, collaborating effectively in team environments, and driving innovation through technology.
+            Seeking opportunities to contribute cutting-edge solutions and elevate business impact.
+        </p>
+    </section>
+    
+
+   <!-- Experience Section (Better Layout) -->
+<section id="experience">
+    <h2>Professional Footprints  &#x1F463;</h2>
+    <div class="experience-container">
+        <div class="experience-box">
+            <h3>Solar Secure Solutions, Intern</h3>
+            <p><strong>Web Developer</strong> (Jun - Aug 2022)</p>
+            <ul>
+                <li>Implemented user interfaces with HTML, CSS, JS, and PHP, boosting user engagement by 25%.</li>
+                <li>Streamlined troubleshooting and improved code documentation to enhance development workflows.</li>
+            </ul>
+        </div>
+        <div class="experience-box">
+            <h3>Research Project, SRM University, India</h3>
+            <ul>
+                <li>Built an ensemble learning model combining VGG, DenseNet, and ResNet architectures to classify COVID-19 from chest X-ray images using decision-level fusion.</li>
+                <li>Enhanced diagnostic accuracy and efficiency across three classes up to 85%, facilitating faster and more reliable disease detection.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education">
+    <h2>Degrees of Growth &#128218;</h2>
+    <div class="education-container">
+        <div class="education-box">
+            <h3>Masters in Computer Science, University Of Central Florida, USA</h3>
+            <p><strong>Aug 2024 - Present</strong></p>
+            <p>Computer Architecture, Design and Analysis of Algorithms, AIML, NLP</p>
+            <p><strong>CGPA:</strong> 3.912 out of 4</p>
+        </div>
+        <div class="education-box">
+            <h3>Bachelor of Technology, SRM University, AP, India</h3>
+            <p><strong>Sep 2020 - May 2024</strong></p>
+            <p>Computer Science and Engineering, Specialization in AIML</p>
+            <p>Minor in English</p>
+            <p><strong>CGPA:</strong> 8.6 out of 10</p>
+        </div>
+    </div>
+</section>
+
+    
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+<section id="projects">
+    <h2>Tech Sandbox &#128187;</h2>
+    <div class="projects-container">
+        <div class="project">
+            <h3>EMNIST Digits and Letters Recognition: MLP, ViT, DenseNet, ResNet, RNN with LSTM</h3>
+            <p>Achieved 90% accuracy using ViT Model with advanced hyperparameter tuning. Collaborated on evaluating and comparing the performance of MLP, ViT, DenseNet, ResNet, and RNN with LSTM models on the EMNIST dataset.</p>
+            <p><strong>Tools:</strong> Data Analysis & Management, Data Cleaning & Validation</p>
+        </div>
+        <div class="project">
+            <h3>Crop Pest Classification</h3>
+            <p>Developed a machine learning solution to detect and classify crop pests using a curated dataset, leveraging advanced classification techniques.</p>
+            <p><strong>Tools:</strong> TensorFlow, scikit-learn, Jupyter Notebook, Matplotlib, Pandas, OpenCV</p>
+        </div>
+        <div class="project">
+            <h3>Mini ERP Portal for Educational Institutions</h3>
+            <p>Engineered a mini-ERP portal to centralize student data management and academic performance tracking, employing HTML, CSS, JavaScript, PHP, and MySQL.</p>
+            <p><strong>Tools:</strong> VS Code, phpMyAdmin, MySQL</p>
+            <a href="https://github.com" class="btn">View Project</a>
+        </div>
+    </div>
+</section>
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Digital Toolkit &#128295;</h2>
+    <div class="skills-container">
+        
+        <!-- Programming Languages -->
+        <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <p>C, C++, Python, Java, C#, JavaScript, HTML, CSS, PHP, AJAX, jQuery</p>
+        </div>
+
+        <!-- Full-Stack Development -->
+        <div class="skill-category">
+            <h3>Full-Stack Development</h3>
+            <p>Node.js, .NET Framework, Blazor, ASP.NET, Microsoft Visual Studio, EF Core</p>
+        </div>
+
+        <!-- AI & Machine Learning -->
+        <div class="skill-category">
+            <h3>AI & Machine Learning</h3>
+            <p>Artificial Intelligence, Machine Learning, Microsoft Copilot, Computer Vision, Research</p>
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-category">
+            <h3>Web Development</h3>
+            <p>Front-End: React, Tailwind, Material UI, jQuery, Blazor</p>
+            <p>Back-End: Node.js, ASP.NET, API Development, JSON Web Token (JWT)</p>
+        </div>
+
+        <!-- Database & Data Structures -->
+        <div class="skill-category">
+            <h3>Databases & Algorithms</h3>
+            <p>SQL, MySQL, Database Integration, Database Management, Data Binding</p>
+            <p>Data Structures, Algorithms, Advanced Algorithms, Dynamic Programming</p>
+        </div>
+
+        <!-- DevOps & Cloud -->
+        <div class="skill-category">
+            <h3>DevOps & Cloud</h3>
+            <p>Azure Cloud Services, CI/CD, Website Deployment, DevOps, Performance Security</p>
+        </div>
+
+        <!-- Security & Optimization -->
+        <div class="skill-category">
+            <h3>Security & Performance Optimization</h3>
+            <p>Security, Web Performance Optimization, Asynchronous Programming</p>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <p>Interpersonal Collaboration, Analytical Reasoning, Problem Solving, Self-Motivation, Adaptability, Articulate Communication, Quick Learning, Detail Orientation, Multitasking Efficiency</p>
+        </div>
+
+    </div>
+</section>
+<!-- Publications Section -->
+<!-- Publications Section -->
+<section id="publications">
+    <h2>Published Vault &#128478;</h2>
+    <div class="publications-container">
+        <div class="publication-box">
+            <h3>Comparative Study of ML Techniques for Classification of Crop Pests</h3>
+            <p><strong>Authors:</strong> Divya Sri Kosaraju</p>
+            <p><strong>Conference:</strong> IEEE Xplore, 2024</p>
+            <p><strong>DOI:</strong> 10.1109/AISP61711.2024.10870737</p>
+            <a href="https://ieeexplore.ieee.org/document/10870737" target="_blank" class="btn">Read Paper</a>
+        </div>
+    </div>
+</section>
+<!-- Certificates Section (New) -->
+<section id="certificates">
+    <h2>Certification Wall &#128221;</h2>
+    <div class="slideshow-container">
+        <img class="certificate-slide" src="assests/Screenshot 2025-02-26 at 11.17.21 AM.png" alt="Certificate 1">
+        <img class="certificate-slide" src="assests/c1.jpeg" alt="Certificate 1">
+        <img class="certificate-slide" src="assests/c3.jpeg" alt="Certificate 3">
+        <img class="certificate-slide" src="assests/c4.jpeg" alt="Certificate 1">
+        <img class="certificate-slide" src="assests/c5.jpeg" alt="Certificate 2">
+        <img class="certificate-slide" src="assests/c8.png" alt="Certificate 2">
+        <img class="certificate-slide" src="assests/c6.jpeg" alt="Certificate 3">
+        <img class="certificate-slide" src="assests/c7.png" alt="Certificate 3">
+        <img class="certificate-slide" src="assests/c2.jpeg" alt="Certificate 2">
+
+        <button class="prev" onclick="changeSlide(-1)">❮</button>
+        <button class="next" onclick="changeSlide(1)">❯</button>
+    </div>
+
+    <div class="gallery">
+        <img src="assests/Screenshot 2025-02-26 at 11.17.21 AM.png" alt="Certificate 1" onclick="openLightbox(this.src)">
+        <img src="assests/c1.jpeg" alt="Certificate 1" onclick="openLightbox(this.src)">
+        <img src="assests/c3.jpeg" alt="Certificate 3" onclick="openLightbox(this.src)">
+        <img src="assests/c4.jpeg" alt="Certificate 3" onclick="openLightbox(this.src)">
+        <img src="assests/c5.jpeg" alt="Certificate 3" onclick="openLightbox(this.src)">
+        <img src="assests/c8.png" alt="Certificate 3" onclick="openLightbox(this.src)">
+        <img src="assests/c6.jpeg" alt="Certificate 3" onclick="openLightbox(this.src)">
+        <img src="assests/c7.png" alt="Certificate 3" onclick="openLightbox(this.src)">
+        <img src="assests/c2.jpeg" alt="Certificate 2" onclick="openLightbox(this.src)">
+
+    </div>
+
+    <!-- Lightbox for enlarged view -->
+    <div class="lightbox" id="lightbox">
+        <span class="close" onclick="closeLightbox()">✖</span>
+        <img id="lightbox-img">
+    </div>
+</section>
+
+<!-- Volunteering Section -->
+<section id="volunteering">
+    <h2>Hearts & Hustle &#128140;</h2>
+    <div class="volunteering-container">
+        
+        <!-- Udaghosh Social Welfare Society -->
+        <div class="volunteer-box">
+            <img src="assests/v1.jpg" alt="Udaghosh Logo" class="volunteer-logo">
+            <h3>Volunteering Intern</h3>
+            <p><strong>Organization:</strong> Udaghosh Social Welfare Society</p>
+            <p><strong>Duration:</strong> April 2022 - May 2022</p>
+            <p><strong>Industry:</strong> Social Services</p>
+            <ul>
+                <li>Engaged in social work, fundraising, and awareness campaigns.</li>
+                <li>Promoted organizational initiatives and invited volunteers to support the NGO.</li>
+                <li>Focused on education, literacy, human rights, and women empowerment.</li>
+            </ul>
+        </div>
+
+        <!-- Tare Zameen Foundation -->
+        <div class="volunteer-box">
+            <img src="assests/v2.jpeg" alt="Tare Zameen Logo" class="volunteer-logo">
+            <h3>Fundraising Intern</h3>
+            <p><strong>Organization:</strong> Tare Zameen Foundation</p>
+            <p><strong>Duration:</strong> May 2022 - June 2022</p>
+            <p><strong>Industry:</strong> Social Services</p>
+            <ul>
+                <li>Raised funds for "The Project - Donate a Ration Kit" for underprivileged families during the pandemic.</li>
+                <li>Contributed to creating a healthier environment for underprivileged communities.</li>
+            </ul>
+            
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Open a Ticket!</h2>
+    <div class="contact-links">
+        <a href="mailto:kosarajudivyasri@gmail.com">
+            <img src="assests/email.png" alt="Email Icon">
+        </a>
+        <a href="https://www.linkedin.com/in/divyasrikosaraju" target="_blank">
+            <img src="assests/linkedin.png" alt="LinkedIn Icon">
+        </a>
+        <a href="https://github.com/divyavjk21" target="_blank">
+            <img src="assests/github.png" alt="GitHub Icon">
+        </a>
+        <a href="https://vsco.co/divyasrikosaraju/gallery" target="_blank">
+            <img src="assests/vsco.png" alt="VSCO Icon">
+        </a>
+    </div>
+</section>
+<footer class="footer">
+    <p>👩‍💻 Powered by passion, built with pixels | © 2025 Divya Sri Kosaraju</p>
+</footer>
+
+</body>
+</html>

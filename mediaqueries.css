@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    #hero {
+        flex-direction: column;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+}
